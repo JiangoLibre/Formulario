@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo { 
+    font-family: 'Press Start 2P', cursive;
+    color:#005b8f;
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+#subtitulo{
+    font-family: 'Press Start 2P', cursive;
+    color: #3d3d3d;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+#check{
+    display: inline-block;
+}
+fieldset {
+    border: 0;
+    
+}
+
+body{
+    background-color: #012032;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1em;
+    color: #009df8 ;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+    
+}
+
+input,select,textarea,button{
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.8em;
+    color: #009df8 ;
+   
+}
+form {
+    margin-left: 10%;
+    margin-top: 3% ;
+}
+
+.campo label {
+    margin-bottom: 0.5em;
+    color :#009df8;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 2em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #009df8 ;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;   
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #e0e0f8;
+}
+
+.botton {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2em;
+    font-size: 1.2em;
+    background: #009df8;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top:90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botton:hover{
+    background: #005b8f;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botton, select{
+    cursor: pointer;
+}
+
+.botton  {
+    width: 8em;
+}
+textarea{
+    width: 35em;
+    
+}
