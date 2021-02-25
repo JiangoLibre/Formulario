@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    width: 100%;
+}
 #titulo { 
     font-family: 'Press Start 2P', cursive;
     color:#005b8f;
@@ -25,13 +27,16 @@ fieldset {
 }
 
 body{
+    width: 100%;
     background-color: #012032;
     font-family: 'Orbitron', sans-serif;
     font-size: 1em;
     color: #009df8 ;
-    margin-left: 36%;
-    margin-top: 2%;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2% auto;
     
 }
 
@@ -43,8 +48,7 @@ input,select,textarea,button{
    
 }
 form {
-    margin-left: 10%;
-    margin-top: 3% ;
+    margin: auto;
 }
 
 .campo label {
